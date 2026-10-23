@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e8f5e9;
+}
+
+header {
+    background:black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.tarjeta {
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ccc;
+}
+
+.tarjeta h2 {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.tarjeta p {
+    font-size: 21px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

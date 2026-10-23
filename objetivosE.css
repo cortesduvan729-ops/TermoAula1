@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #dbc382;
+}
+
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.contenedor {
+    width: 85%;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.tarjeta {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ccc;
+}
+
+.tarjeta h2 {
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background:#dbc382;
+    margin: 15px 0;
+    padding: 18px;
+    border-left: 5px solid black;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
